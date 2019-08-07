@@ -1,0 +1,40 @@
+
+body {
+    background-image:url("images/starry.jpg");
+    background-size: cover; }
+    /* no-repeat center center;
+    background-color: pink;
+    background-size: cover;
+    display: flex;
+    margin:0;
+    padding:0;
+    height: 100vh; */
+
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+.about {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+} 
+.post {
+  border: 10px solid white;
+  margin: 10px;
+  background-color: rgb(255, 225, 251);
+  
+  }
+
+  /*Enter class of a box for overidding formation of box in third party softwares*/ {
+    box-sizing: content-box;
+  }
+

@@ -1,0 +1,92 @@
+<form action="main.html" method="POST">
+        <h2>Form</h2>
+         <p>
+            Henlo folks, thx for coming to meh site. Realz glad u decided to post som pix of some real good stareh stars. Butt ufortunat leey u hav sign dis to post pixs srry n thx ;3
+            <!--Statement above is a placeholder-->
+        </p>
+          <section class="name">
+             <label for = "First">First Name:</label>
+               <input type = "text" name = "First name" id = "First" value="Enter.." minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+" required>
+                  <br><br>
+             <label for = "Last">Last Initial:</label>
+               <input type = "text" name = "Last initial" id = "Last" value="In.." minlength="1" maxlength="2" pattern="[a-zA-Z0-9]+" required>
+                  <br><br>
+         </section> 
+
+          <section class="Catalog">
+              <span>What would you like to submit?</span>
+              <br>
+              <input id="photos" name="Catalog" type="checkbox" value="photos">
+                     <label for="photos">Photos</label>
+                     <br>
+             
+              <input id="art" name="Catalog" type="checkbox" value="art">
+                     <label for="art">Art</label>
+                     <br>
+
+              <input type="checkbox" name="Catalog" value="other" id="other">
+                     <label for="other">Other</label>
+                     <br>
+            
+              <input type="checkbox" name="Catalog" value="memes" id="memes">
+                     <label for="memes">Video/GIFs/Memes</label>
+                    <br>   
+          </section>
+
+          <section class="extra-info">
+                  <br>
+                  <label for="com">Comment here if you want to add a caption to your post!</label>
+                  <br>
+                  <textarea id="com" name="com" rows="3" cols="40">Enter text here!</textarea>
+                  <br><br>
+          </section>
+      
+          <section class="opt">
+                  <span>Would you like to opt-in to our newsletter?</span>
+                  <br>
+                       <input id="yes" type="radio" name="opt" value="yes">
+        
+                  <label for="yes">Yes</label>
+
+                  <br>
+                      <input id="no" type="radio" name="opt" value="no">
+        
+                  <label for="no">No</label>
+
+                  <br><br>
+
+          </section>
+
+
+          <section class="org">
+                          <span>Would you like to send this to another site/corporations on astronomy?</span>
+                          <br>
+                               <input id="yes" type="radio" name="org" value="yes">
+                          <label for="yes">Yes</label>
+  
+                          <br>
+                              <input id="no" type="radio" name="org" value="no">
+                          <label for="no">No</label>
+  
+                          <br><br>
+          </section>
+
+          <section class="sending">
+              <label for="send">Where would you like to send it to? </label>
+                 <select id="send" name="send">
+                   <option value="nasa">NASA</option>
+                   <option value="gov">US Government</option>
+                   <option value="mom">Ur mom</option>
+                   <br><br>
+                   <!--Put in datalist instead of input if you want the user to type in what they want instead of using the drop down menu-->
+           </section>
+          
+          
+           <br>
+           <section class="submission">
+               <br><br>
+               <input type="Submit" value="Excelsior!!!">
+           </section>
+           <br>
+
+    </form>
